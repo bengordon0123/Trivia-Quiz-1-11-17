@@ -202,8 +202,8 @@ if Q1Response == "C" or Q1Response == "c":
         print("C. Kris Dunn")
         print("")
 
-    Q2Answer = "A" # right answer to question 2
-    Q2Response = input("Your Answer:  ")
+    Q10Answer = "A" # right answer to question 2
+    Q10Response = input("Your Answer:  ")
     if Q10Response == "A" or Q10Response == "a":
         print("Well done " + Q10Response + " is correct!")
         score = score + 1
