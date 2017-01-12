@@ -1,0 +1,221 @@
+# trivia quiz
+
+print("This is a quiz that tests your knowledge of geography")
+
+name = input("Enter your name")
+
+print("Hi there", name+ \n "Are you ready to take this quiz?")
+print("I will ask you 10 questions and give you three choices for each question")
+print("----------------------------------------------------------------------------")
+# set quiz score to 0
+
+score = 0
+score = int(score) # convert 0 into a number so we can ass scores
+
+# question 1
+
+print("Question 1: What is the largest ocean in the world?")
+print("A. The Indian Ocean")
+print("B. The Atlantic Ocean")
+print("C. The Pacific Ocean")
+print("")
+
+Q1Answer = "C" # right answer to question 1
+Q1Response = input("Your Answer:  ")
+
+if Q1Response == "C" or Q1Response == "c":
+    print("Well done " + Q1Response + " is correct!")
+    score = score +1
+
+    else:
+
+        print("Sorry, " + Q1Response + " is incorrect!")
+
+        print("Your current score is " + str(score) + " out of 10")
+
+        # question 2
+
+        print("Question 2: Who is leading the NBA in points per game this season?")
+        print("A. Russell Westbrook")
+        print("B. Lebron James")
+        print("C. Demar Derozan")
+        print("")
+
+    Q2Answer = "A" # right answer to question 2
+    Q2Response = input("Your Answer:  ")
+    if Q2Response == "A" or Q2Response == "a":
+        print("Well done " + Q2Response + " is correct!")
+        score = score + 1
+
+        else:
+
+        print("Sorry, " + Q2Response + " is incorrect!")
+
+        print("Your current score is " + str(score) + " out of 10")
+
+# question 3
+
+        print("Question 3: Who is the artist behind the song Tunnel Vision?")
+        print("A. Lil Uzi Vert")
+        print("B. Kodak Black")
+        print("C. A$AP Rocky")
+        print("")
+
+    Q3Answer = "B" # right answer to question 3
+    Q3Response = input("Your Answer:  ")
+    if Q3Response == "B" or Q3Response == "b":
+        print("Well done " + Q3Response + " is correct!")
+        score = score + 1
+
+        else:
+
+        print("Sorry, " + Q3Response + " is incorrect!")
+
+        print("Your current score is " + str(score) + " out of 10")
+
+        # question 4
+
+        print("Question 4: Who was the most recent President-Elect of the US?")
+        print("A. Donald Trump")
+        print("B. Hillary Clinton")
+        print("C. Gary Johnson")
+        print("")
+
+    Q4Answer = "A" # right answer to question 4
+    Q4Response = input("Your Answer:  ")
+    if Q4Response == "A" or Q4Response == "a":
+        print("Well done " + Q4Response + " is correct!")
+        score = score + 1
+
+        else:
+
+        print("Sorry, " + Q4Response + " is incorrect!")
+
+        print("Your current score is " + str(score) + " out of 10")
+
+        # question 5
+
+        print("Question 5: Who won the AL Cy Young award in 2016?")
+        print("A. Rick Porcello")
+        print("B. Justin Verlander")
+        print("C. Chris Sale")
+        print("")
+
+    Q5Answer = "A" # right answer to question 5
+    Q5Response = input("Your Answer:  ")
+    if Q5Response == "A" or Q5Response == "a":
+        print("Well done " + Q5Response + " is correct!")
+        score = score + 1
+
+        else:
+
+        print("Sorry, " + Q5Response + " is incorrect!")
+
+        print("Your current score is " + str(score) + " out of 10")
+
+
+# question 6
+
+        print("Question 6: Who won NBA MVP in 2016?")
+        print("A. Russell Westbrook")
+        print("B. Kevin Durant")
+        print("C. Stephen Curry")
+        print("")
+
+    Q6Answer = "C" # right answer to question 6
+    Q6Response = input("Your Answer:  ")
+    if Q6Response == "C" or Q6Response == "c":
+        print("Well done " + Q6Response + " is correct!")
+        score = score + 1
+
+        else:
+
+        print("Sorry, " + Q6Response + " is incorrect!")
+
+        print("Your current score is " + str(score) + " out of 10")
+
+        # question 7
+
+        print("Question 7: Who won the AL MVP in MLB in 2016?")
+        print("A. Mike Trout")
+        print("B. Mookie Betts")
+        print("C. Jose Altuve")
+        print("")
+
+    Q7Answer = "A" # right answer to question 7
+    Q7Response = input("Your Answer:  ")
+    if Q7Response == "A" or Q7Response == "a":
+        print("Well done " + Q7Response + " is correct!")
+        score = score + 1
+
+        else:
+
+        print("Sorry, " + Q7Response + " is incorrect!")
+
+        print("Your current score is " + str(score) + " out of 10")
+
+        # question 8
+
+        print("Question 8: Which player left the OKC Thunder for the Golden State Warriors this past summer?")
+        print("A. Russell Westbrook")
+        print("B. Kevin Durant")
+        print("C. Steven Adams")
+        print("")
+
+    Q8Answer = "B" # right answer to question 8
+    Q8Response = input("Your Answer:  ")
+    if Q8Response == "B" or Q8Response == "b":
+        print("Well done " + Q8Response + " is correct!")
+        score = score + 1
+
+        else:
+
+        print("Sorry, " + Q8Response + " is incorrect!")
+
+        print("Your current score is " + str(score) + " out of 10")
+
+        # question 9
+
+        print("Question 90000: Who is the leading scorer on the New York Knicks this season?")
+        print("A. Carmelo Anthony")
+        print("B. Derrick Rose")
+        print("C. Kristaps Porzingis")
+        print("")
+
+    Q9Answer = "A" # right answer to question 9 
+    Q9Response = input("Your Answer:  ")
+    if Q9Response == "A" or Q9Response == "a":
+        print("Well done " + Q9Response + " is correct!")
+        score = score + 1
+
+        else:
+
+        print("Sorry, " + Q9Response + " is incorrect!")
+
+        print("Your current score is " + str(score) + " out of 10")
+
+        # question 10
+
+        print("Question 10: Who was the number one pick in the NBA Draft last summer?")
+        print("A. Ben Simmons")
+        print("B. Brandon Ingram")
+        print("C. Kris Dunn")
+        print("")
+
+    Q2Answer = "A" # right answer to question 2
+    Q2Response = input("Your Answer:  ")
+    if Q10Response == "A" or Q10Response == "a":
+        print("Well done " + Q10Response + " is correct!")
+        score = score + 1
+
+        else:
+
+        print("Sorry, " + Q10Response + " is incorrect!")
+
+        print("Your current score is " + str(score) + " out of 10")
+
+
+
+
+
+
